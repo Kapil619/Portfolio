@@ -1,0 +1,183 @@
+/* USeful styles */
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.padd-td-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.h4-heading{
+  text-align: left;
+  font-family: 'Kufam', sans-serif;
+  color: #E94560;
+}
+.intro-head{
+  background-color: #9D84B7;
+}
+body {
+  background-color: #EEEEEE;
+}
+/* #E3D7FF */
+.navbar{
+  background-color: #424874;
+}
+
+.zoom {
+  /* padding: 50px; */
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  /* margin: 0 auto; */
+}
+
+.zoom:hover {
+  transform: scale(1.1);}
+
+.prof-img{
+  max-width: 100%;
+  /* max-height: 100%; */
+  height: auto;
+  border-radius: 8px;
+  margin-top: 4rem;
+}
+.intro-links{
+  margin-top: 20px;
+}
+
+/* img{
+  position:absolute;
+  left: 75%;
+} */
+.intro-text {
+  position: relative;
+  text-align: left;
+  padding-top: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Sawarabi Mincho', serif;
+  line-height: 1.5;
+  display: inline;
+}
+
+a {
+  color: inherit;
+}
+
+.soc-icon {
+  position: relative;
+  padding: 5px;
+  bottom: 5px
+}
+
+.about {
+  clear: both;
+  display: table;
+}
+
+
+.about-text {
+  width: 50%;
+  font-size: 1.2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  float: left;
+  margin-right: 50px;
+}
+
+p.about-text::first-letter {
+  color: black;
+  font-size: 150%
+}
+
+hr {
+  color: black;
+  /* width: 20%; */
+}
+
+/* .flex-container{
+  display: flex;
+  flex-direction: row;
+} */
+.a-text{
+  position: relative;
+  left: 35%;
+}
+.skill-img {
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.education {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edu-icon {
+  margin-right: 1.5rem;
+}
+.edu-info{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.edu-text {
+  margin-left: 3.4rem;
+}
+
+/* .new-cont{
+  width: 75%;
+} */
+/* .progress{
+  margin-top: 20px;
+
+} */
+.h4-skilled{
+  line-height: 2;
+}
+.pr-bar {
+  margin-bottom: 10px;
+}
+
+.contact-text {
+  margin-left: 70px;
+}
+
+.contact-icons {
+  margin-right: 20px;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.mail {
+  margin: 20px 0;
+}
+
+.head-text {
+  position: absolute;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: #424874;
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  margin: 10px;
+  padding: 5px;
+}
